@@ -4,7 +4,7 @@ from datetime import date, datetime
 app = Flask(__name__)
 
 current_day = date.today()
-utc_time = datetime.now().isoformat(timespec='seconds')
+utc_time = datetime.now().isoformat(timespec='seconds') + 'Z'
 github_file_url = 'https://github.com/Holic65/HNGX_Backend_Track/blob/master/stage_one/task_1.py'
 github_repo_url = 'https://github.com/Holic65/HNGX_Backend_Track/'
 

@@ -20,7 +20,7 @@ def api():
     hng_params = {
         "slack_name": args.get('slack_name'),
         "current_day": current_day.strftime("%A"),
-        "utc_time": utc_time,
+        "utc_time": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
         "track": args.get('track'),
         "github_file_url": github_file_url,
         "github_repo_url": github_repo_url,

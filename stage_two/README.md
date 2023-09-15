@@ -38,12 +38,10 @@ GET request to 'https://hngx-omarko-1.onrender.com/api/20e3aa9d1c284de1bc9a8bed2
   => return {"error": "data not found"}
 
 
-  ![CRUD UML](https://github.com/Holic65/HNGX_Backend_Track/assets/56598437/e9e0ae50-5df2-462b-87ed-49bfad51b416)
-
-
 GET request to 'https://hngx-omarko-1.onrender.com/api/' 
   => return []
 
-
-
 NOTE: The userid used here is a sample of the userid generated when a new user is created
+
+
+ ![CRUD UML](https://github.com/Holic65/HNGX_Backend_Track/assets/56598437/e9e0ae50-5df2-462b-87ed-49bfad51b416)

@@ -1,4 +1,4 @@
-How to use my crud API
+How to use my crud API https://hngx-omarko-1.onrender.com/api/
 
 Creating New user with POST request is done by sending a POST request
 
